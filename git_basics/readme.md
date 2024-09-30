@@ -1,1 +1,1 @@
-# VCS and GIT (2nd lesson)
+# Pavlo Okhonko
