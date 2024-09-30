@@ -1,0 +1,22 @@
+{
+  "name": "pokhonko-ithillel-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentoforik/POkhonko-ITHillel-cypress.git"
+  },
+  "author": "Pavlo Okhonko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kentoforik/POkhonko-ITHillel-cypress/issues"
+  },
+  "homepage": "https://github.com/kentoforik/POkhonko-ITHillel-cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
