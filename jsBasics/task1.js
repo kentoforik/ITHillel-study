@@ -9,5 +9,5 @@ console. log(`
   Number type: ${num}
   Boolean type: ${bool}
   Null type: ${nul}
-  Undefind type: ${undef}
+  Undefined type: ${undef}
   `)
