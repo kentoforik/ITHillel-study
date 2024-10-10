@@ -53,7 +53,7 @@ const rl = readline.createInterface({
 rl.question("Enter any number from 1 to 10 and I will return you a Multiplication table for it: ", (answer) => {
   const numForMultiply = parseInt(answer);
 
-  if (isNaN(numForMultiply) || numForMultiply < 0 || numForMultiply > 10) {
+  if (isNaN(numForMultiply) || numForMultiply <= 0 || numForMultiply > 10) {
     console.log('Should enter positive number from 1 to 10.')
   } else {
     multiplicationTableWithForLoop(answer);
