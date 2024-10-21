@@ -12,3 +12,24 @@
 // Кількість нульових чисел: 2
 
 // Ваша програма повинна коректно підрахувати та вивести кількість позитивних, негативних та нульових чисел в заданому масиві.
+
+const numbers = [];
+let positiveCount = 0;
+let negativeCount = 0;
+let zeroCount = 0;
+
+//create random array
+for (let i = 0; i < 10; i++) {
+  numbers.push(Math.floor(Math.random() * 10 - 5))
+}
+
+for (const el of numbers) {
+  if (el === 0) {
+    zeroCount++;
+    continue;
+  }
+  el > 0 ? positiveCount++ : negativeCount++
+}
+
+
+console.log(`Within the array ${numbers}, there are: \n${positiveCount} positive numbers \n${negativeCount} negative numbers \n${zeroCount} numbers equal to zero`)
