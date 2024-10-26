@@ -8,3 +8,19 @@
 // owner: число, представляє рік випуску автомобіля.
 // Створіть об'єкт car3. Використайте оператор spread щоб додати всі властивості що є в car1 та car2 до об’єкту car3.
 // Виведіть об'єкт car3 в консоль.
+
+const car1 = {
+  brand: "Toyota",
+  model: "C-HR",
+  year: 2017
+}
+
+const car2 = {
+  brand: "Lexus",
+  model: "RX350",
+  owner: "Mishel Savastru"
+}
+
+const car3 = { ...car1, ...car2 }
+
+console.log(car3)

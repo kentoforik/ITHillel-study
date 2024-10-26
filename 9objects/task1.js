@@ -6,3 +6,11 @@
 // courses: масив, представляє список курсів, які він вивчає (наприклад, ["Математика", "Історія", "Програмування"]).
 // Виведіть об'єкт student в консоль.
 
+const student = {}
+
+student.firstName = 'Pavlo'
+student.lastName = 'Okhonko'
+student.age = '40'
+student.courses = ['JS Automation', 'History', 'Psychology']
+
+console.log(student)
