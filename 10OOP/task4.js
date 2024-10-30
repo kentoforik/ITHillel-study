@@ -5,7 +5,7 @@ import { elBooks } from './task2.js';
 
 class BookExtendedGetOldest extends Book {
   static getOldestBook(booksArray) {
-    return (booksArray.map((el) => el.year || el._publishYear).sort((a, b) => b - a))[0]
+    return (booksArray.map((el) => el.year || el._publishYear).sort((a, b) => a - b))[0]
   }
 }
 
@@ -14,13 +14,13 @@ const booksArr = bookExamples.map(element => {
 });
 
 // Invocation for a simple object
-console.log(BookExtendedGetOldest.getOldestBook(bookExamples)) 
+console.log(BookExtendedGetOldest.getOldestBook(bookExamples))
 
 // Invocation for Book class instances
-console.log(BookExtendedGetOldest.getOldestBook(booksArr)) 
+console.log(BookExtendedGetOldest.getOldestBook(booksArr))
 
 // Invocation for EBook class instances
-console.log(BookExtendedGetOldest.getOldestBook(elBooks)) 
+console.log(BookExtendedGetOldest.getOldestBook(elBooks))
 
 // Invocation for random classes instances
 const randomBooks = [bookExamples[0], booksArr[1], elBooks[2], bookExamples[1]]
