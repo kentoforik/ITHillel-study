@@ -12,10 +12,10 @@ export class Book {
   }
 }
 
-export const books = [
-  { title: "\"I, Robot\"", author: "Isaac Asimov", year: "1950" },
-  { title: "\"Fahrenheit 451\"", author: "Ray Bradbury", year: "1953" },
-  { title: "\"Dune\"", author: "Frank Herbert ", year: "1965" },
+export const bookExamples = [
+  { title: "I, Robot", author: "Isaac Asimov", year: "1950" },
+  { title: "Fahrenheit 451", author: "Ray Bradbury", year: "1953" },
+  { title: "Dune", author: "Frank Herbert ", year: "1965" },
 ]
 
 function printBooks(books) {
@@ -25,4 +25,4 @@ function printBooks(books) {
   })
 }
 
-// printBooks(books);  //commented in order to NOT execute on import to task2.
+// printBooks(bookExamples);  //commented in order to NOT execute on import to task2.
