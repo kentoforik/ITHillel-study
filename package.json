@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node node_basics/index.js"
+    "start": "node node_basics/index.js",
+    "prepare": "husky",
+    "lint": "npx eslint --fix ."
   },
   "repository": {
     "type": "git",
