@@ -6,7 +6,7 @@ class TicketManager {
   }
 
   isTicketsAvailable(tickets) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       return this.availableTickets >= tickets
         ? resolve(true)
         : resolve(false)
