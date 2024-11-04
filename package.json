@@ -8,7 +8,7 @@
     "test": "test",
     "start": "node node_basics/index.js",
     "prepare": "husky",
-    "lint": "npx eslint --fix ."
+    "lint": "npx eslint --no-fix ."
   },
   "repository": {
     "type": "git",
