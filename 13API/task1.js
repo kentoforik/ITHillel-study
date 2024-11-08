@@ -6,6 +6,9 @@
 
 
 import axios from 'axios';
+import { logAxios } from './extraTask';
+
+logAxios(false);  //pass true to see the response body
 
 export async function fetchJSON({ url, method, data }) {
   return await axios({
