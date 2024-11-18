@@ -1,0 +1,16 @@
+Напишіть CSS або XPath селектори для доданого файла
+
+1. Select the first <h2> element:
+XPATH: /html/body/h2[1]
+CSS: body > h2:nth-child(1)
+
+2. Select all list items under the <ul> element with the id "fruits":
+#fruits > li
+
+3. Select the second <span> element with the class "color" under the <div> with the id "colors"
+//div[@id="colors"]/span[@class="color"][2]
+
+4. Select the cell with age of the student named "Alice":
+//td[contains(text(),"Alice")]//ancestor::td/following-sibling::td
+
+
