@@ -39,7 +39,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("Enter your grade: ", (answer) => {
-  let averageGrade = parseInt(answer);
+  const averageGrade = parseInt(answer);
 
   gradeAssessment(averageGrade);
 

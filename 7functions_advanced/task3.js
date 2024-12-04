@@ -16,7 +16,7 @@ function divide(numerator, denominator) {
 
 const data = [[1, 2], [0, 1], [1, 0], ['Hello', 1], [1, 'Hello'], ['Hello', 0], [0, 'Hello']]
 
-for (let item of data) {
+for (const item of data) {
   try {
     divide(item[0], item[1])
   } catch (err) { 

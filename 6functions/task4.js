@@ -16,8 +16,8 @@ console.log('Array of numbers, mutliplied by provided argument: ', arrayFromNumb
 
 // default arg + ...rest
 function defaultName(name = "Pavlo", ...rest) {
-  let names = [name];
-  for (let name of rest) {
+  const names = [name];
+  for (const name of rest) {
     names.push(name)
   }
   return names;

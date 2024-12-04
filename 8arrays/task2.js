@@ -3,7 +3,7 @@
 // Ось кроки, які вам потрібно виконати:
 
 // Створіть початковий масив, наприклад, [1, 2, 3, 4, 5].
-let randomArr = []
+const randomArr = []
 for (let i = 0; i < 10; i++) {
   randomArr.push(Math.floor(Math.random() * 10 - 5))
 }

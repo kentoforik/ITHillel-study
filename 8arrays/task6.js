@@ -1,6 +1,6 @@
 // У вас є вихідний масив
 // сonst numbersList = [1,10,14,2,4,5,43,34]
-let randomArr = []
+const randomArr = []
 for (let i = 0; i < 10; i++) {
   randomArr.push(Math.floor(Math.random() * 10 - 5))
 }

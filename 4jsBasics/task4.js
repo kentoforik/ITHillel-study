@@ -4,7 +4,7 @@
 // Обчисліть площу кола за формулою π * radius^2 і виведіть результат.
 
 const circleArea = (radius) => {
-  let circleRadius = radius;
+  const circleRadius = radius;
 
   console.log(`\nThe circle area with radius ${circleRadius} is ${Math.PI * Math.pow(circleRadius, 2)} \n`);
 }
@@ -15,8 +15,8 @@ const circleArea = (radius) => {
 // Обчисліть площу прямокутника за формулою length * width і виведіть результат.
 
 const rectArea = (length, width) => {
-  let rectLength = length;
-  let rectWidth = width;
+  const rectLength = length;
+  const rectWidth = width;
 
   console.log(`The rectangle area with length ${rectLength} and width ${rectWidth} is: ${rectLength * rectWidth}`)
 
@@ -29,8 +29,8 @@ const rectArea = (length, width) => {
 // Округліть кожне отримане значення до 2 значень після крапки
 
 const cylinderVolume = () => {
-  let radius = 100;
-  let height = 7;
+  const radius = 100;
+  const height = 7;
 
   console.log(`
   The cylinder with: 

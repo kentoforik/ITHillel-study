@@ -3,12 +3,12 @@
 // Ось кроки, які вам потрібно виконати:
 
 // Створіть два масиви, наприклад, firstArray і secondArray, які містять деякі значення.
-let randomArr1 = []
+const randomArr1 = []
 for (let i = 0; i < 5; i++) {
   randomArr1.push(Math.floor(Math.random() * 10 - 5))
 }
 
-let randomArr2 = []
+const randomArr2 = []
 for (let i = 0; i < 5; i++) {
   randomArr2.push(Math.floor(Math.random() * 10 - 5))
 }
